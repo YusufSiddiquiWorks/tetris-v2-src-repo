@@ -8,8 +8,8 @@ pipeline {
         
         // SSM Parameter Paths (Where your secrets live in AWS)
         SSM_URL_PATH  = '/ml/docker-registry/url'
-        SSM_USER_PATH = '/ml/docker-registry/username'
-        SSM_PASS_PATH = '/ml/docker-registry/password'
+        SSM_USER_PATH = '/ml/docker-credential/username'
+        SSM_PASS_PATH = '/ml/docker-credential/password'
         
         // REPO_NAME: This is your "username/image-name"
         // Example: 'yusufsiddiqui/my-app'
